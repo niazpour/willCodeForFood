@@ -1,3 +1,3 @@
 # willCodeForFood
 
-Authors: Niaz, Diane, and Kimberly
+Authors: Niaz, Kimberly, Diane
