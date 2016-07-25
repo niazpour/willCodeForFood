@@ -8,7 +8,7 @@
     margin-top: 15em;
 }
 .learn{
-    background-color: #000000; 
+    background-color: #000000;
     border: none;
     color: white;
     padding: 15px 70px;
@@ -24,7 +24,7 @@
     stroke: none;
 }
 .inspire{
-    background-color: #000000; 
+    background-color: #000000;
     border: none;
     color: white;
     padding: 15px 70px;
@@ -91,7 +91,6 @@
 	text-align:center;
 	margin-top: 2em;
 }
-<<<<<<< Updated upstream
 
 /* MET CSS */
 
@@ -105,7 +104,7 @@
 #controls * {
 	margin: 5px;
 	display:inline-block;
-	
+
 }
 
 .play {
@@ -137,14 +136,14 @@
 	top:1px; left: 1px;
 }
 
-#showTempo { 
+#showTempo {
 	display: inline-block;
-	width: 45px; 
+	width: 45px;
 }
 
-#showSwing { 
+#showSwing {
 	display: inline-block;
-	width: 40px; 
+	width: 40px;
 }
 
 * {
