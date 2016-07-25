@@ -91,6 +91,7 @@
 	text-align:center;
 	margin-top: 2em;
 }
+<<<<<<< Updated upstream
 
 /* MET CSS *\
 
@@ -158,3 +159,14 @@ body, html {
 body {
     overflow: auto;
 }
+=======
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(http://66.media.tumblr.com/tumblr_m6dc0540KA1rw3fqbo1_1280.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+>>>>>>> Stashed changes

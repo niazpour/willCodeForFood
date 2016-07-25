@@ -1,0 +1,14 @@
+.navbar-brand {
+	font-family: aliens and cows;
+	font-size:25pt;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(https://secure.static.tumblr.com/0fb852941914858166ce995419aa0595/p1bqqks/iRRmvlnrf/tumblr_static_handsbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    
+}
