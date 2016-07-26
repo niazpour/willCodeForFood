@@ -1,5 +1,5 @@
 .navbar-brand {
-	font-family: aliens and cows;
+	font-family: 'Montserrat', sans-serif;
 	font-size:25pt;
 }
 .logo {
@@ -8,7 +8,7 @@
     margin-top: 15em;
 }
 .learn{
-    background-color: #000000;
+    background-color: #000000; 
     border: none;
     color: white;
     padding: 15px 70px;
@@ -19,12 +19,12 @@
     transition: all .5s;
     cursor:pointer;
     margin:5px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     position: relative;
     stroke: none;
 }
 .inspire{
-    background-color: #000000;
+    background-color: #000000; 
     border: none;
     color: white;
     padding: 15px 70px;
@@ -35,7 +35,7 @@
     transition: all .5s;
     cursor:pointer;
     margin:5px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     stroke:none;
 }
 
@@ -55,7 +55,7 @@
   transition: 0.5s;
 }
 
-  .learn:hover span {
+.learn:hover span {
   padding-right: 25px;
 }
 
@@ -79,7 +79,7 @@
   transition: 0.5s;
 }
 
-  .inspire:hover span {
+.inspire:hover span {
   padding-right: 25px;
 }
 
@@ -99,5 +99,5 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
 }
+
