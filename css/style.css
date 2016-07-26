@@ -101,3 +101,63 @@
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
 }
+
+.metronome{
+  background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 25px;
+    transition: all .5s;
+    cursor:pointer;
+    margin:5px;
+    font-family:'Quicksand', sans-serif;
+    position: relative;
+    stroke: none;
+    font-weight: bold;
+}
+.tuner{
+  background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 25px;
+    transition: all .5s;
+    cursor:pointer;
+    margin:5px;
+    font-family:'Quicksand', sans-serif;
+    position: relative;
+    stroke: none;
+    font-weight: bold;
+}
+.how{
+  background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 25px;
+    transition: all .5s;
+    cursor:pointer;
+    margin:5px;
+    font-family:'Quicksand', sans-serif;
+    position: relative;
+    stroke: none;
+    font-weight: bold;
+}
+.learnins{
+  text-align:center;
+  padding:15px;
+}
+.headline{
+  text-align:center;
+  font-family:'Quicksand',sans-serif;
+}
