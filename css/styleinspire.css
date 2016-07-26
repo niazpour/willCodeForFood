@@ -1,5 +1,5 @@
 .navbar-brand {
-	font-family: aliens and cows;
+	font-family: 'Montserrat', sans-serif;
 	font-size:25pt;
 }
 
@@ -11,4 +11,20 @@
     background-repeat: no-repeat;
     color: black;
     
+}s
+.genres{
+	background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 25px;
+    transition: all .5s;
+    cursor:pointer;
+    margin:5px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    stroke: none;
 }

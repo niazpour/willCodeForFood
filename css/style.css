@@ -1,6 +1,6 @@
 .navbar-brand {
-	font-family: aliens and cows;
-	font-size:25pt;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20pt;
 }
 .logo {
     display: block;
@@ -15,11 +15,11 @@
     text-align: center;
     text-decoration: none;
     display: center;
-    font-size: 35px;
+    font-size: 25px;
     transition: all .5s;
     cursor:pointer;
     margin:5px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     stroke: none;
 }
@@ -31,11 +31,11 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
     transition: all .5s;
     cursor:pointer;
     margin:5px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     stroke:none;
 }
 
