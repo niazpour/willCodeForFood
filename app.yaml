@@ -16,14 +16,6 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /metronome\.js
-  static_files: js/metronome.js
-  upload: js/metronome\.js
-
-- url: /metronomeworker\.js
-  static_files: js/metronomeworker.js
-  upload: js/metronomeworker\.js
-
 - url: .*
   script: main.app
 
