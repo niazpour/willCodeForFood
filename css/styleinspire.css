@@ -71,3 +71,37 @@
 	text-align:center;
 	font-family:'Quicksand',sans-serif;
 }
+
+.popheader{
+    background-color:#33ccff;
+    color:white;
+
+}
+#pop{
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+
+}
+.text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:15pt;
+}
+.rapheader{
+    background-color:lavender;
+    color:white;
+}
+#rap{
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+}
+.rockheader{
+    background-color:lightpink;
+    color:white;
+}
+#rock{
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+}
