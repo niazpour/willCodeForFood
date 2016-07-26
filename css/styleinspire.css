@@ -1,6 +1,6 @@
 .navbar-brand {
 	font-family: 'Montserrat', sans-serif;
-	font-size:25pt;
+	font-size:20pt;
 }
 
 .jumbotron {
@@ -11,8 +11,8 @@
     background-repeat: no-repeat;
     color: black;
     
-}s
-.genres{
+}
+.pop{
 	background-color: #000000;
     border: none;
     color: white;
@@ -24,7 +24,50 @@
     transition: all .5s;
     cursor:pointer;
     margin:5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Quicksand', sans-serif;
     position: relative;
     stroke: none;
+    font-weight: bold;
+}
+.rap{
+	background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 25px;
+    transition: all .5s;
+    cursor:pointer;
+    margin:5px;
+    font-family:'Quicksand', sans-serif;
+    position: relative;
+    stroke: none;
+    font-weight: bold;
+}
+.rock{
+	background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 25px;
+    transition: all .5s;
+    cursor:pointer;
+    margin:5px;
+    font-family:'Quicksand', sans-serif;
+    position: relative;
+    stroke: none;
+    font-weight: bold;
+}
+.genres{
+	text-align:center;
+	padding:15px;
+}
+.headline{
+	text-align:center;
+	font-family:'Quicksand',sans-serif;
 }
