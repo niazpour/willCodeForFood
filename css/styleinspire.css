@@ -2,7 +2,6 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size:20pt;
 }
-
 .jumbotron {
     margin-bottom: 0px;
     background-image: url(https://secure.static.tumblr.com/0fb852941914858166ce995419aa0595/p1bqqks/iRRmvlnrf/tumblr_static_handsbackground.jpg);
@@ -73,7 +72,7 @@
 }
 
 .popheader{
-    background-image: url(http://5pz91qmfi1-flywheel.netdna-ssl.com/wp-content/uploads/2014/11/Screen-Shot-2014-11-06-at-8.16.59-AM.jpg);
+    background-image: url(http://67.media.tumblr.com/d40aa8904836eb39475ee0beb9650e0a/tumblr_numtkbaZ2x1u5fdruo5_1280.jpg);
     padding-top: 5pt;
     color:white;
     position:absolute;
@@ -90,11 +89,12 @@
     font-family:'Quicksand', sans-serif;
     font-weight: bold;
     margin-top: 2em;
-
+    margin-left:2em;
 }
 .text{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size:15pt;
+    margin-left:5em;
 }
 
 .rapheader{
@@ -115,6 +115,7 @@
     font-family:'Quicksand', sans-serif;
     font-weight: bold;
     margin-top: 2em;
+    margin-left:2em;
 }
 .rockheader{
     background-image: url(http://65.media.tumblr.com/eb6000ebe7a188b38a1ca7606e32f22f/tumblr_o9xh2mjaJA1v93yk5o1_1280.jpg);
@@ -134,4 +135,79 @@
     font-family:'Quicksand', sans-serif;
     font-weight: bold;
     margin-top: 2em;
+    margin-left:2em;
+}
+.pop span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.pop span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.pop:hover span {
+   padding-right: 25px;
+}
+
+.pop:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.rap span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.rap span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.rap:hover span {
+   padding-right: 25px;
+}
+
+.rap:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.rock span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.rock span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.rock:hover span {
+   padding-right: 25px;
+}
+
+.rock:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.spotify{
+    float:right;
+    margin-right: 2em;
+
 }
