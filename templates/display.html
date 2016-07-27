@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Montserrat|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href ="../css/style.css">
-
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Montserrat|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href ="../css/style.css">
+  <!--METRONOME STUFF-->
+   <link rel="stylesheet" href="/css/main.css">
+   <script src="/js/metronome.js"></script>
+   <script src="/js/metronomeworker.js"></script>
   <title>Musicology</title>
-</head>
+  </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -86,20 +89,27 @@
 <div class="learnlowerheaders">
   <h1 class="metronometitle">METRONOME</h1>
   <p class="text">Use this metronome to keep track of the correct tempo for your music.</p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+
+<!--METRONOME EMBEDDING START-->
+  <div class="metronome">
+      <center>
+        <div id="controls">
+          <div id="tempoBox">TEMPO: <span id="showTempo">100</span>BPM <input id="tempo" type="range" min="40.0" max="208.0" step="1" value="120" style="height: 20px; width: 200px" onInput="tempo = event.target.value; document.getElementById('showTempo').innerText=tempo;"></div>
+          <div>RESOLUTION:<select onchange="noteResolution = this.selectedIndex;"><option>16th notes<option>8th notes<option>1/4th notes</select></div>
+            <br>
+          <div><a class="play" onclick="this.innerText = play();">PLAY</a></div>
+        </div>
+      </center>
+      <div class="container">
+        <canvas></canvas>
+      </div>
+    </div>
+<!--METRONOME EMBEDDING END-->
+
 
   <h1 class="learnlowerheaders">TUNER</h1>
   <p class="text">Use this tuner to have a good starting point for your practice session.</p>
-  <br>
+    <br>
   <br>
   <br>
   <br>
@@ -142,11 +152,11 @@
   <br>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
 </body>
+
 <footer>
   <center>
-    Copyright 2016, Musicology. All Rights Reserved.
+    <div>Copyright 2016, Musicology. All Rights Reserved.</div>
   </center>
 </footer>
 </html>
