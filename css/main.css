@@ -3,7 +3,7 @@
 	font-weight: bold;
 	font-size:24px;
 	font-weight:bold;
-	margin: 15px;
+	margin: 25px;
 }
 
 #controls *
@@ -24,9 +24,8 @@
 	-webkit-border-radius:20px;
 	border-radius:20px;
 	color:#ffffff;
-	padding:8px 24px;
+	padding:8px 100px;
 	text-decoration:none;
-	text-shadow:1px 1px 6px #000000;
 	width: 80px;
 	text-align: center;
 	font-family: 'Quicksand',sans-serif;
