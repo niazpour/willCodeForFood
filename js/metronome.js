@@ -124,16 +124,15 @@ function draw() {
 }
 
 function init(){
-    //var container = document.createElement( 'div' );
-    //container.className = "container";
-    //canvas = document.createElement( 'canvas' );
-    canvas = document.getElementsByTagName( "canvas" )[0];
+    var container = document.createElement( 'div' );
 
+    container.className = "container";
+    canvas = document.createElement( 'canvas' );
     canvasContext = canvas.getContext( '2d' );
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    //document.body.appendChild( container );
-    //container.appendChild(canvas);
+    document.body.appendChild( container );
+    container.appendChild(canvas);
     canvasContext.strokeStyle = "#ffffff";
     canvasContext.lineWidth = 2;
 
