@@ -88,13 +88,16 @@
 #pop{
     font-family:'Quicksand', sans-serif;
     font-weight: bold;
+}
+#poptext{
     margin-top: 2em;
     margin-left:2em;
+    float:left;
 }
 .text{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size:15pt;
-    margin-left:5em;
+    margin-left:4em;
 }
 
 .rapheader{
