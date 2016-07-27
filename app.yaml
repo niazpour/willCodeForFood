@@ -24,6 +24,10 @@ handlers:
   static_files: js/metronomeworker.js
   upload: js/metronomeworker\.js
 
+- url: /learnMap\.js
+  static_files: js/learnMap.js
+  upload: /learnMap\.js
+
 - url: .*
   script: main.app
 
