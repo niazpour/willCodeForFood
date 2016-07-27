@@ -73,9 +73,18 @@
 }
 
 .popheader{
-    background-color:#33ccff;
+    background-image: url(http://5pz91qmfi1-flywheel.netdna-ssl.com/wp-content/uploads/2014/11/Screen-Shot-2014-11-06-at-8.16.59-AM.jpg);
+    padding-top: 5pt;
     color:white;
-
+    position:absolute;
+    width:100%; 
+    height:100%; 
+    background-size:cover;
+    background-attachment: fixed;
+    display: inline;
+    clear: both;
+    white-space: nowrap;
+    top:660px;
 }
 #pop{
     font-family:'Quicksand', sans-serif;
@@ -87,9 +96,20 @@
     font-family: 'PT Sans Narrow', sans-serif;
     font-size:15pt;
 }
+
 .rapheader{
-    background-color:lavender;
+    background-image: url(https://secure.static.tumblr.com/f921656e26aefe5c1b32539ca14f66e0/nqfoe4i/mutn4yo8j/tumblr_static_emineeeeem..jpg);
+    padding-top: 5pt;
     color:white;
+    position:absolute;
+    width:100%; 
+    height:100%; 
+    background-size:cover;
+    clear: both;
+    display:inline;
+    white-space: nowrap;
+    top:1406px;
+    background-attachment: fixed;
 }
 #rap{
     font-family:'Quicksand', sans-serif;
@@ -97,8 +117,18 @@
     margin-top: 2em;
 }
 .rockheader{
-    background-color:lightpink;
+    background-image: url(http://65.media.tumblr.com/eb6000ebe7a188b38a1ca7606e32f22f/tumblr_o9xh2mjaJA1v93yk5o1_1280.jpg);
+    padding-top: 5pt;
     color:white;
+    position:absolute;
+    width:100%; 
+    height:100%; 
+    background-size:cover;
+    clear: both;
+    display: inline;
+    white-space: nowrap;
+    top:2152px;
+    background-attachment: fixed;
 }
 #rock{
     font-family:'Quicksand', sans-serif;

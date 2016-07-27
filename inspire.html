@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Montserrat|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href ="css/styleinspire.css">
@@ -23,8 +24,6 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <li class="hidden">
-                    <a href="#page-top"></a>
       <ul class="nav navbar-nav">
         <li class="Learn"><a href="#">Learn <span class="sr-only">(current)</span></a></li>
         <li><a href="#Discover">Discover</a></li>
@@ -68,10 +67,38 @@
       </div>
     </div>
    <div class = "genres">
-      <button type = "button" class = "pop" ><span>POP</span></button>
+      <button type = "button" class = "pop"><span>POP</span></button>
+      <script type="text/javascript">
+
+              $(".pop").click(function() {
+                $('html,body').animate({
+                scrollTop: $(".popheader").offset().top},
+                'slow');
+        });
+      </script>
       <button  class = "rap" type="button"><span>RAP</span></button>
+       <script type="text/javascript">
+
+              $(".rap").click(function() {
+                $('html,body').animate({
+                scrollTop: $(".rapheader").offset().top},
+                'slow');
+        });
+      </script>
       <button  class = "rock" type="button"><span>ROCK</span></button>
+       <script type="text/javascript">
+
+              $(".rock").click(function() {
+                $('html,body').animate({
+                scrollTop: $(".rockheader").offset().top},
+                'slow');
+        });
+      </script>
     </div>
+        <br>
+        <br>
+        <br>
+        <br>
   <div class = "popheader">
     <h1 id="pop">POP</h1>
     <p class="text">Pop fresh beats</p>
@@ -81,6 +108,10 @@
 </center>
     </div>
   </div>
+        <br>
+        <br>
+        <br>
+        <br>
   <div class = "rapheader">
     <h1 id="rap">RAP</h1>
     <p class="text">rappy hip hopity</p>
@@ -90,11 +121,15 @@
 </center>
     </div>
   </div>
+        <br>
+        <br>
+        <br>
+        <br>
   <div class = "rockheader">
     <h1 id="rock">ROCK</h1>
     <p class="text">rocky rock rock rock rock</p>
     <div class = "spotify"><center>
-    <iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:6PObHFkv7TAGAv5dfxKMl0
+    <iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:6OzKk3EjMczg2gvrQT81OO
 &theme=white&view=coverart" width="250" height="300" frameborder="0" allowtransparency="true"></iframe>
 </center>
     </div>
