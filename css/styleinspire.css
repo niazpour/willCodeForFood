@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
-    
+
 }
 .pop{
 	background-color: #000000;
@@ -76,8 +76,8 @@
     padding-top: 5pt;
     color:white;
     position:absolute;
-    width:100%; 
-    height:100%; 
+    width:100%;
+    height:100%;
     background-size:cover;
     background-attachment: fixed;
     display: inline;
@@ -105,8 +105,8 @@
     padding-top: 5pt;
     color:white;
     position:absolute;
-    width:100%; 
-    height:100%; 
+    width:100%;
+    height:100%;
     background-size:cover;
     clear: both;
     display:inline;
@@ -122,8 +122,8 @@
     padding-top: 5pt;
     color:white;
     position:absolute;
-    width:100%; 
-    height:100%; 
+    width:100%;
+    height:100%;
     background-size:cover;
     clear: both;
     display: inline;
@@ -239,4 +239,9 @@
     color:white;
     position: absolute;
 
+}
+
+.footer
+{
+	color: white;
 }
