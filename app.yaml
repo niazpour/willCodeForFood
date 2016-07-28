@@ -4,7 +4,6 @@ runtime: python27
 api_version: 1
 threadsafe: yes
 
-
 handlers:
 
 - url: /css
@@ -28,6 +27,10 @@ handlers:
 - url: /learnMap\.js
   static_files: js/learnMap.js
   upload: /learnMap\.js
+
+- url: /webaudio\.js
+  static_files: js/webaudio.js
+  upload: js/webaudio\.js
 
 - url: .*
   script: main.app
