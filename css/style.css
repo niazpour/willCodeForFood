@@ -182,3 +182,30 @@
         width:1200px;
         height:600px;
         margin-top: 15px;
+      }
+.text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:15pt;
+    margin-left:4em;
+    margin-top: 2em;
+}
+.metronometitle{
+  padding-top: 2em;
+  font-family:'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.tunertitle{
+  padding-top: 2em;
+  font-family:'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.howtitle{
+  padding-top: 2em;
+  font-family:'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.maptitle{
+  padding-top: 2em;
+  font-family:'Quicksand', sans-serif;
+  font-weight: bold;
+}

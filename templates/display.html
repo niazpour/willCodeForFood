@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Montserrat|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href ="../css/style.css">
@@ -22,7 +23,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../index.html">MUSICOLOGY</a>
+      <a class="navbar-brand" href="/">MUSICOLOGY</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,13 +77,49 @@
         <br>
 <div class = "learnins">
       <button type = "button" class = "metronome"><span>METRONOME</span></button>
+      <script type="text/javascript">
+
+              $(".metronome").click(function() {
+                $('html,body').animate({
+                scrollTop: $(".metronomeheader").offset().top},
+                'slow');
+        });
+      </script>
       <button  class = "tuner" type="button"><span>TUNER</span></button>
+        <script type="text/javascript">
+
+              $(".tuner").click(function() {
+                $('html,body').animate({
+                scrollTop: $(".tunerheader").offset().top},
+                'slow');
+        });
+
+        </script>
       <button  class = "how" type="button"><span>HOW-TO'S</span></button>
+        <script type="text/javascript">
+
+              $(".how").click(function() {
+                $('html,body').animate({
+                scrollTop: $(".howheader").offset().top},
+                'slow');
+        });
+
+        </script>
       <button class="mapButton" type="button"><span>NEARBY</span></button>
+       <script type="text/javascript">
+
+              $(".mapButton").click(function() {
+                $('html,body').animate({
+                scrollTop: $(".mapheader").offset().top},
+                'slow');
+        });
+
+        </script>
     </div>
     <br>
 
 <div class="learnlowerheaders">
+<div class="metronomeheader">
   <h1 class="metronometitle">METRONOME</h1>
   <p class="text">Use this metronome to keep track of the correct tempo for your music.</p>
 
@@ -98,10 +135,11 @@
       <div class="container">
         <canvas></canvas>
       </div>
+      </div>
 <!--METRONOME EMBEDDING END-->
 
-
-  <h1 class="learnlowerheaders">TUNER</h1>
+<div class="tunerheader">
+  <h1 class="tunertitle">TUNER</h1>
   <p class="text">Use this tuner to have a good starting point for your practice session.</p>
     <br>
   <br>
@@ -113,7 +151,9 @@
   <br>
   <br>
   <br>
-  <h1 class="learnlowerheaders">HOW-TO'S</h1>
+</div>
+<div class ="howheader">
+  <h1 class="howtitle">HOW-TO'S</h1>
     <p class="text">Use these videos to supplement your dedication and daily application.</p>
     <br>
     <br>
@@ -144,10 +184,11 @@
   <br>
   <br>
   <br>
-
+</div>
+<div class="mapheader">
   <div>
-      <h1>PLACES TO LEARN</h1>
-      <p>Here are places to learn the music</p>
+      <h1 class="maptitle">PLACES TO LEARN</h1>
+      <p class="text">Here are places to learn the music</p>
       <center><div id="map"></div></center>
   </div>
 
@@ -155,6 +196,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script async defer src="http://maps.google.com/maps/api/js?key=AIzaSyBJGlhRhwC9jJj_EOfqilBjzGZVR0ZVz0Y&callback=initMap">
   </script>
+</div>
 </body>
 
 <footer>
