@@ -8,9 +8,21 @@ jinja_environment = jinja2.Environment(
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
+        template = jinja_environment.get_template('index.html')
+        self.response.out.write(template.render())
+
+class LearnHandler(webapp2.RequestHandler):
+    def get(self):
         template = jinja_environment.get_template('templates/display.html')
         self.response.out.write(template.render())
 
+class InspireHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('templates/inspire.html')
+        self.response.out.write(template.render())
+
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/', MainHandler),
+    ('/learn',LearnHandler),
+    ('/inspire',InspireHandler),
 ], debug=True)
