@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <title>Tuner</title>
+  <script src="/webaudio.js"></script>
+  <style>
+  input[type=radio]
+  {
+    width:100%;
+    xheight:100%;
+    vertical-align: middle;
+    transform: scale(5);
+    -moz-transform: scale(5);
+    -ms-transform: scale(5);
+    -webkit-transform: scale(5);
+    -o-transform: scale(5);
+    opacity:0.2;
+  </style>
+</head>
+<body>
+  This is a tuner demo. Choose a note to tune to (preferably an open string, like "A" on violin).
+  <br>
+  <br>
+  <br>
+<div width="800px" style="position:relative; height:90px">
+  <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t34.0-12/13820349_547533462115471_1617141996_n.jpg?oh=003819f4eb0a12bc82cff4ea6f642910&oe=579C48B3" width="800px" height="90px" style="position:absolute">
+                      <!--width="800px"-->
+  <table width="846px" height="90px" style="position:absolute; margin-left:225px">
+    <tr>
+       <td>
+         <input type="radio" name="gender" onclick="setFrequency(440)" checked>
+         </td>
+         <td>
+         <input type="radio" name="gender" onclick="setFrequency(493.88)">
+         </td>
+         <td>
+         <input type="radio" name="gender" onclick="setFrequency(523.25)">
+         </td>
+         <td>
+         <input type="radio" name="gender" onclick="setFrequency(587.33)">
+         </td>
+         <td>
+         <input type="radio" name="gender" onclick="setFrequency(659.25)">
+         </td>
+         <td>
+         <input type="radio" name="gender" onclick="setFrequency(698.46)">
+         </td>
+         <td>
+         <input type="radio" name="gender" onclick="setFrequency(783.99)">
+       </td>
+   </tr>
+  </table>
+</div>
+
+ <button type="button" onclick="playFrequency()">Start</button>
+ <button type="button" onclick="stopFrequency()">Stop</button>
+</body>
