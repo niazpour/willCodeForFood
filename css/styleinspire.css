@@ -82,7 +82,6 @@
     background-attachment: fixed;
     display: inline;
     clear: both;
-    white-space: nowrap;
     top:660px;
 }
 #pop{
@@ -93,6 +92,7 @@
     margin-top: 2em;
     margin-left:2em;
     float:left;
+    position:relative;
 }
 .text{
     font-family: 'PT Sans Narrow', sans-serif;
@@ -110,15 +110,12 @@
     background-size:cover;
     clear: both;
     display:inline;
-    white-space: nowrap;
     top:1406px;
     background-attachment: fixed;
 }
 #rap{
     font-family:'Quicksand', sans-serif;
     font-weight: bold;
-    margin-top: 2em;
-    margin-left:2em;
 }
 .rockheader{
     background-image: url(http://65.media.tumblr.com/eb6000ebe7a188b38a1ca7606e32f22f/tumblr_o9xh2mjaJA1v93yk5o1_1280.jpg);
@@ -137,8 +134,6 @@
 #rock{
     font-family:'Quicksand', sans-serif;
     font-weight: bold;
-    margin-top: 2em;
-    margin-left:2em;
 }
 .pop span {
   cursor: pointer;
@@ -212,5 +207,36 @@
 .spotify{
     float:right;
     margin-right: 2em;
+    margin-left: 20em;
+    position:static;
+    margin-top: -50pt;
+
+}
+.popartists{
+    top:860px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:15pt;
+    margin-left:4em;
+    color:white;
+    position: absolute;
+
+}
+
+.rapartists{
+    top:1606px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:15pt;
+    margin-left:4em;
+    color:white;
+    position: absolute;
+
+}
+.rockartists{
+    top:2352px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:15pt;
+    margin-left:4em;
+    color:white;
+    position: absolute;
 
 }
