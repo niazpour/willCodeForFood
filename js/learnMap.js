@@ -27,16 +27,19 @@ var locations = [
 
 //Information about the lists
 var contentString = '<img id="img" style="width:125px;height:125px;float:center;margin-right:20px;margin-top:5px;" src=""/>' +
-        '<div style="float:right;text-align:left;padding-top;0px;">' +
-            '<h3 id="mapHeader"></h3>' +
+        '<div style="float:right;text-align:left;">' +
+            '<h3></h3>' +
                 '<div class="address">' +
-                    '<p id="address"></p>' +
+                    '<img style="float:left;height:20px;width:20px;margin-right:10px;" src="https://image.freepik.com/free-icon/placeholder-on-a-map_318-37507.jpg">' +
+                    '<p style="float:center;width:350px;" id="address"></p>' +
                 '</div>' +
                 '<div class="telephone">' +
-                    '<p id=telephone></p>' +
+                    '<img style="float:left;height:20px;width:20px;margin-right:10px;" src="http://www.clker.com/cliparts/0/f/c/2/1195445181899094722molumen_phone_icon.svg.hi.png">' +
+                    '<p style="float:center;" id=telephone></p>' +
                 '</div>' +
                 '<div class="web">' +
-                    '<p><a id="attribute" href="">Website</a><p>' +
+                    '<img style="float:left;height:20px;width:20px;margin-right:10px;" src="http://www.clipartbest.com/cliparts/eiM/dze/eiMdzeK6T.svg">' +
+                    '<a style="float:center;" id="attribute" href="">Website</a>' +
                 '</div>' +
         '</div>'
 
@@ -53,7 +56,7 @@ function initMap(){
         content: contentString
     });
 
-    var marker, i;
+    // var marker, i;
 
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
@@ -64,7 +67,7 @@ function initMap(){
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
             return function() {
                 infowindow.open(map, marker);
-                $('#mapHeader').text(locations[i][0]);
+                $('h3').text(locations[i][0]);
                 $('#address').text(locations[i][3]);
                 $('#attribute').each(function(){
                     this.href = locations[i][4];
