@@ -56,7 +56,7 @@ function initMap(){
         content: contentString
     });
 
-    // var marker, i;
+    var marker, i;
 
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
