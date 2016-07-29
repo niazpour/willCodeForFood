@@ -48,7 +48,7 @@ var contentString = '<img id="img" style="width:125px;height:125px;float:center;
 function initMap(){
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 13,
-        center: new google.maps.LatLng(42.352764, -71.092421),
+        center: new google.maps.LatLng(42.357335, -71.093446),
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
