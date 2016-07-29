@@ -14,7 +14,7 @@ handlers:
 
 - url: /favicon\.ico
   static_files: favicon.ico
-  upload: favicon\.ico
+  upload: /favicon\.ico
 
 - url: /metronome\.js
   static_files: js/metronome.js
